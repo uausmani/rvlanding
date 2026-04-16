@@ -31,14 +31,14 @@ const Index = () => {
       <header className="flex justify-end px-6 md:px-12 py-6">
         <button
           onClick={() => setOpen(true)}
-          className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-300"
+          className="text-xs font-medium tracking-widest uppercase text-foreground border border-foreground px-5 py-2.5 hover:bg-foreground hover:text-background transition-colors duration-300"
         >
           Contact Us
         </button>
       </header>
 
       <main className="flex-1 flex items-center justify-center px-6">
-        <img src="/assets/rv-logo.png" alt="Rock Vntrs" className="w-64 md:w-80 lg:w-96" />
+        <img src="/assets/rv-logo.png" alt="Rock Vntrs" className="w-64 md:w-80 lg:w-96 bg-transparent" />
       </main>
 
       <footer className="py-6 text-center">
