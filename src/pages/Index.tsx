@@ -38,7 +38,7 @@ const Index = () => {
       </header>
 
       <main className="flex-1 flex items-center justify-center px-6">
-        <img src="/assets/rv-logo.png" alt="Rock Vntrs" className="w-64 md:w-80 lg:w-96 bg-transparent" />
+        <img src="/assets/rv-logo.png" alt="Rock Vntrs" className="w-64 md:w-80 lg:w-96 mix-blend-multiply" />
       </main>
 
       <footer className="py-6 text-center">
