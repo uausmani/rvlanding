@@ -59,6 +59,7 @@ const Index = () => {
               {status === "error" && (
                 <p className="text-sm text-destructive">Something went wrong. Please try again.</p>
               )}
+              <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" style={{ display: "none" }} aria-hidden="true" />
               <input name="name" type="text" placeholder="Name" required className="w-full bg-transparent border-b border-border pb-3 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-foreground transition-colors text-sm" />
               <input name="email" type="email" placeholder="Work Email" required className="w-full bg-transparent border-b border-border pb-3 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-foreground transition-colors text-sm" />
               <textarea name="message" placeholder="Message" rows={3} required className="w-full bg-transparent border-b border-border pb-3 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-foreground transition-colors text-sm resize-none" />
